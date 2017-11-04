@@ -13,7 +13,7 @@ public class Client {
 
 
         JFrame frame = new JFrame("MAP");
-        Canvas canvas = new Canvas("C:\\Users\\BAC\\OneDrive\\College\\CSC 172\\src\\Project4\\ur.txt");
+        Canvas canvas = new Canvas("filepath");
 
         frame.add(canvas);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
